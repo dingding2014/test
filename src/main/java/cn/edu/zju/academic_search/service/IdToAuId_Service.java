@@ -132,7 +132,7 @@ public class IdToAuId_Service {
     	    if(Author2!=null) {
     	    	for(Map<String,Long> author: Author2) {
     	    		Long auId=author.get("AuId");
-    	    		Long afId=author.get("Afld");
+    	    		Long afId=author.get("AfId");
         	    	if(auId!=null) {
         	    		list_AuIdx.add(auId);
         	    		if(afId!=null&&auId.equals(AuId2)) { //AuId2作者所属机构
